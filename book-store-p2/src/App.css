@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.comments-form {
+  background-color: #67696d;
+  color: white;
+}
+.imputs {
+  background-color: #c1c5cf !important;
+}
