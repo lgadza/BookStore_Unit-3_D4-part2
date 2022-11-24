@@ -37,7 +37,7 @@ class SingleBook extends Component {
           <Button variant="primary">{this.props.book.price}</Button>
         </Card.Body>
         {this.state.selected && <AddComment asin={this.props.book.asin} />}
-        {this.state.selected && <CommentsList />}
+        {this.state.selected && <CommentsList asin={this.props.book.asin} />}
         {/* <CommentsList /> */}
       </Card>
     );

@@ -11,7 +11,7 @@ class CommentsList extends Component {
   fetchComments = async () => {
     try {
       let response = await fetch(
-        "https://striveschool-api.herokuapp.com/api/comments/tt0062543",
+        `https://striveschool-api.herokuapp.com/api/comments/${this.props.asin}`,
         {
           headers: {
             "Content-Type": "application/json",
